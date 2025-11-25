@@ -18,11 +18,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* GPU acceleration for animations */
-* {
-  transform: translateZ(0);
-  backface-visibility: hidden;
-}
 
 
 /* Word-level zoom effect */
