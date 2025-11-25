@@ -1,4 +1,3 @@
-```javascript
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -6,18 +5,25 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
     const isEven = index % 2 === 0;
 
     return (
-        <section className="py-20 md:py-32 bg-gray-900 text-white">
-            <div className="container mx-auto px-4">
-                <div className={`flex flex - col md: flex - row items - center gap - 12 ${ isEven ? 'md:flex-row-reverse' : '' } `}>
+        <section className="py-20 md:py-32 border-b border-zinc-900 last:border-none">
+            <div className="container mx-auto px-6">
+                <div className={`flex flex-col md:flex-row items-center gap-12 md:gap-24 ${isEven ? '' : 'md:flex-row-reverse'}`}>
+
                     {/* Image Side */}
                     <motion.div
                         initial={{ opacity: 0, x: isEven ? -50 : 50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true, amount: 0.2, margin: "100px" }}
-                        transition={{ duration: 0.6, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+                        transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
                         className="w-full md:w-1/2"
                     >
-                        <img src={image} alt={title} className="rounded-lg shadow-lg w-full h-auto object-cover" />
+                        <div className="relative aspect-[4/3] overflow-hidden rounded-lg group cursor-pointer">
+                            <div
+                                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110 will-change-transform"
+                                style={{ backgroundImage: `url(${image})` }}
+                            ></div>
+                            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+                        </div>
                     </motion.div>
 
                     {/* Text Side */}
@@ -46,6 +52,7 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
                             </a>
                         )}
                     </motion.div>
+
                 </div>
             </div>
         </section>
@@ -53,4 +60,3 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
 };
 
 export default ProjectSection;
-```
