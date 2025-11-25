@@ -34,9 +34,9 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
                         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                         className="w-full md:w-1/2"
                     >
-                        <p className="text-red-500 font-bold tracking-widest text-sm mb-4 uppercase">{category}</p>
-                        <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">{title}</h3>
-                        <p className="text-xl text-gray-400 leading-relaxed mb-8">{description}</p>
+                        <p className="text-red-500 font-bold tracking-widest text-sm mb-6 uppercase">{category}</p>
+                        <h3 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">{title}</h3>
+                        <p className="text-lg text-gray-400 leading-relaxed mb-8">{description}</p>
 
                         {githubLink && (
                             <a
