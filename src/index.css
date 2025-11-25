@@ -13,3 +13,41 @@ body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
 }
+
+
+
+/* Word-level zoom effect */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover,
+p:hover,
+a:hover {
+  cursor: default;
+}
+
+/* Individual word zoom - using CSS only */
+@supports (display: contents) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    display: inline-block;
+  }
+}

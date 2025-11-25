@@ -16,7 +16,7 @@ const Hero = () => {
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="text-5xl md:text-8xl font-bold text-white mb-6 tracking-tighter"
                 >
-                    DIGITAL <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-purple-600">EXPERIENCES</span>
+                    DIGITAL <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-600">EXPERIENCES</span>{' '}
                     <br />
                     THAT MATTER
                 </motion.h1>

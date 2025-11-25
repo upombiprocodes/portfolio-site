@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
 
 const ProjectSection = ({ title, category, image, description, index, githubLink }) => {
     const isEven = index % 2 === 0;
@@ -44,9 +43,12 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
                                 href={githubLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-2 text-white border-b border-white pb-1 hover:text-red-500 hover:border-red-500 transition-colors"
+                                className="inline-flex items-center gap-2 text-white font-bold tracking-widest hover:text-red-500 transition-colors group"
                             >
-                                VIEW ON GITHUB <ArrowUpRight className="w-4 h-4" />
+                                VIEW
+                                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
                             </a>
                         )}
                     </motion.div>

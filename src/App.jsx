@@ -5,27 +5,28 @@ import ProjectSection from './components/ProjectSection';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
 import ProjectBackground from './components/ProjectBackground';
+import WordZoom from './components/WordZoom';
 
 function App() {
   const projects = [
     {
       title: "Traffic Prediction System",
       category: "Machine Learning / Python",
-      image: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmV5d3V5aW55aW55aW55aW55aW55aW55aW55aW55aW55aW55aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btQ8jDaeE8t03zW/giphy.gif", // Traffic flow GIF
+      image: "https://media.giphy.com/media/xT9C25UNTwfZuk85WP/giphy.gif",
       description: "An end-to-end machine learning platform that predicts hourly traffic volumes with high accuracy. Built using Python and Scikit-learn, it features a Random Forest model trained on environmental data. The system includes an interactive Streamlit dashboard with SHAP explainability plots and Folium maps for real-time hotspot visualization.",
-      githubLink: "https://github.com/upombiprocodes/Traffic-Prediction-System"
+      githubLink: "https://upombiprocodes-traffic-prediction-syst-explain-dashboard-yoxxol.streamlit.app/"
     },
     {
       title: "Impact Dashboard",
       category: "Sustainability / Data Analysis",
-      image: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmV5d3V5aW55aW55aW55aW55aW55aW55aW55aW55aW55aW55aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlOaQcLJ2hHpYdy/giphy.gif", // Data dashboard GIF
+      image: "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif",
       description: "A comprehensive dashboard designed to minimize carbon footprints and analyze environmental impact. This tool aggregates data to visualize CO2 emissions, offering actionable insights for reduction. It features dynamic charts and goal-tracking modules to encourage sustainable practices.",
       githubLink: "https://github.com/upombiprocodes"
     },
     {
       title: "Applicant Management System",
       category: "Java / SQL / Figma",
-      image: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmV5d3V5aW55aW55aW55aW55aW55aW55aW55aW55aW55aW55aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif", // Typing/UI interaction GIF
+      image: "https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif",
       description: "A robust desktop application engineered to automate 90% of university admissions processes. It features a secure SQL database managing over 1,000 applicant records and a custom Java Swing interface designed from high-fidelity Figma prototypes.",
       githubLink: "https://github.com/upombiprocodes/Applicant-Management-System-UNIVERSITY"
     }
@@ -34,6 +35,7 @@ function App() {
   return (
     <div className="bg-black min-h-screen text-white cursor-none selection:bg-red-500 selection:text-white overflow-x-hidden">
       <CustomCursor />
+      <WordZoom />
       <Navbar />
 
       <main>
@@ -45,7 +47,7 @@ function App() {
           <div className="container mx-auto px-6 py-20 relative z-10">
             <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-8">
               <h2 className="text-5xl md:text-8xl font-bold tracking-tighter">
-                SELECTED <br /> <span className="text-zinc-800">WORK</span>
+                <span className="text-white">SELECTED</span> <br /> <span className="text-zinc-800">WORK</span>
               </h2>
               <p className="text-gray-400 max-w-sm text-right leading-relaxed">
                 A showcase of technical projects demonstrating full-stack development and machine learning expertise.
