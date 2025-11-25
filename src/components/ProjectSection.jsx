@@ -1,0 +1,60 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
+
+const ProjectSection = ({ title, category, image, description, index, githubLink }) => {
+    const isEven = index % 2 === 0;
+
+    return (
+        <section className="py-20 md:py-32 border-b border-zinc-900 last:border-none">
+            <div className="container mx-auto px-6">
+                <div className={`flex flex-col md:flex-row items-center gap-12 md:gap-24 ${isEven ? '' : 'md:flex-row-reverse'}`}>
+
+                    {/* Image Side */}
+                    <motion.div
+                        initial={{ opacity: 0, x: isEven ? -100 : 100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false, amount: 0.3 }}
+                        transition={{ duration: 0.8, ease: "easeOut" }}
+                        className="w-full md:w-1/2"
+                    >
+                        <div className="relative aspect-[4/3] overflow-hidden rounded-lg group cursor-pointer">
+                            <div
+                                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                style={{ backgroundImage: `url(${image})` }}
+                            ></div>
+                            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+                        </div>
+                    </motion.div>
+
+                    {/* Text Side */}
+                    <motion.div
+                        initial={{ opacity: 0, x: isEven ? 100 : -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false, amount: 0.3 }}
+                        transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+                        className="w-full md:w-1/2"
+                    >
+                        <p className="text-red-500 font-bold tracking-widest text-sm mb-4 uppercase">{category}</p>
+                        <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">{title}</h3>
+                        <p className="text-xl text-gray-400 leading-relaxed mb-8">{description}</p>
+
+                        {githubLink && (
+                            <a
+                                href={githubLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 text-white border-b border-white pb-1 hover:text-red-500 hover:border-red-500 transition-colors"
+                            >
+                                VIEW ON GITHUB <ArrowUpRight className="w-4 h-4" />
+                            </a>
+                        )}
+                    </motion.div>
+
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default ProjectSection;
