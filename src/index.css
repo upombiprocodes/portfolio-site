@@ -18,22 +18,39 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Lightweight animated background */
+/* Dynamic black and red animated background */
 .animated-bg {
-  background: linear-gradient(135deg, #000000 0%, #1a0000 25%, #330000 50%, #1a0000 75%, #000000 100%);
-  background-size: 400% 400%;
-  animation: gradientShift 15s ease infinite;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(139, 0, 0, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(220, 20, 60, 0.1) 0%, transparent 50%),
+    linear-gradient(135deg, #000000 0%, #1a0000 25%, #330000 50%, #1a0000 75%, #000000 100%);
+  background-size: 200% 200%, 200% 200%, 400% 400%;
+  animation:
+    gradientShift 12s ease infinite,
+    pulse 8s ease-in-out infinite;
 }
 
 @keyframes gradientShift {
 
   0%,
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 50%, 100% 50%, 0% 50%;
   }
 
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 50%, 0% 50%, 100% 50%;
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.95;
   }
 }
 

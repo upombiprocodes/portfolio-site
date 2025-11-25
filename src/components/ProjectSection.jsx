@@ -13,7 +13,7 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
                     <motion.div
                         initial={{ opacity: 0, x: isEven ? -50 : 50 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.2, margin: "100px" }}
+                        viewport={{ once: false, amount: 0.2, margin: "100px" }}
                         transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
                         className="w-full md:w-1/2"
                     >
@@ -30,7 +30,7 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
                     <motion.div
                         initial={{ opacity: 0, x: isEven ? 50 : -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.2, margin: "100px" }}
+                        viewport={{ once: false, amount: 0.2, margin: "100px" }}
                         transition={{ duration: 0.6, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
                         className="w-full md:w-1/2"
                     >
