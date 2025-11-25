@@ -39,10 +39,16 @@ const WordZoom = () => {
             });
         };
 
-        setTimeout(applyWordZoom, 300);
+        // Run once on mount with a delay
+        const timeoutId = setTimeout(applyWordZoom, 500);
 
-        const observer = new MutationObserver(() => {
-            setTimeout(applyWordZoom, 300);
+        // Only observe for major DOM changes, not every mutation
+        const observer = new MutationObserver((mutations) => {
+            // Only re-run if new nodes were added
+            const hasNewNodes = mutations.some(mutation => mutation.addedNodes.length > 0);
+            if (hasNewNodes) {
+                setTimeout(applyWordZoom, 100);
+            }
         });
 
         observer.observe(document.body, {
@@ -50,7 +56,10 @@ const WordZoom = () => {
             subtree: true
         });
 
-        return () => observer.disconnect();
+        return () => {
+            clearTimeout(timeoutId);
+            observer.disconnect();
+        };
     }, []);
 
     return null;
