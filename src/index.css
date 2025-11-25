@@ -4,6 +4,7 @@
 
 :root {
   color-scheme: dark;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,8 +15,14 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
+/* GPU acceleration for animations */
+* {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
 
 
 /* Word-level zoom effect */
