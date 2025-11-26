@@ -1,5 +1,6 @@
 import React from 'react';
-import { Github, Instagram } from 'lucide-react';
+import { Github, Instagram, FileText } from 'lucide-react';
+import cvFile from '../assets/cv.docx?url';
 
 const Footer = () => {
     return (
@@ -10,7 +11,15 @@ const Footer = () => {
                         <h2 className="text-4xl md:text-6xl font-bold mb-4">Let's work together.</h2>
                     </div>
 
-                    <div className="mt-8 md:mt-0 flex gap-6">
+                    <div className="mt-8 md:mt-0 flex gap-6 items-center">
+                        <a
+                            href={cvFile}
+                            download="Upom_Bipro_CV.docx"
+                            className="flex items-center gap-2 px-4 py-2 bg-white text-black font-bold rounded-full text-sm hover:bg-gray-200 transition-colors"
+                        >
+                            <FileText className="w-4 h-4" />
+                            <span>CV</span>
+                        </a>
                         <a href="https://github.com/upombiprocodes" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <Github className="w-6 h-6" />
                         </a>

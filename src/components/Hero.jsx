@@ -16,8 +16,7 @@ const Hero = () => {
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="text-5xl md:text-8xl font-bold text-white mb-6 tracking-tighter"
                 >
-                    DIGITAL <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-600">EXPERIENCES</span>{' '}
-                    <br />
+                    TECH <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-600">EXPERIENCES</span>{' '}
                     THAT MATTER
                 </motion.h1>
 
@@ -25,7 +24,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-                    className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 font-semibold"
+                    className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 font-bold"
                 >
                     I craft interactive websites and data-driven applications.
                 </motion.p>
