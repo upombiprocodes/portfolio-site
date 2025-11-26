@@ -13,7 +13,7 @@ const Hero = () => {
                 <motion.h1
                     initial={{ opacity: 0, y: 100 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, ease: "easeOut" }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
                     className="text-5xl md:text-8xl font-bold text-white mb-6 tracking-tighter"
                 >
                     TECH <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-600">EXPERIENCES</span>{' '}
@@ -23,7 +23,7 @@ const Hero = () => {
                 <motion.p
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
+                    transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
                     className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 font-bold"
                 >
                     I craft interactive websites and data-driven applications.
@@ -32,7 +32,7 @@ const Hero = () => {
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 1, delay: 1 }}
+                    transition={{ duration: 0.6, delay: 0.6 }}
                 >
                     <a
                         href="#work"
@@ -46,7 +46,7 @@ const Hero = () => {
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 1.5, duration: 1 }}
+                transition={{ delay: 1, duration: 0.8 }}
                 className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce"
             >
                 <ArrowDown className="text-white w-6 h-6" />

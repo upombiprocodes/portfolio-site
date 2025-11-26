@@ -29,7 +29,7 @@ const Navbar = () => {
                     {['Work', 'About', 'Contact'].map((item) => (
                         <a
                             key={item}
-                            href={`#${item.toLowerCase()}`}
+                            href={item === 'Contact' ? '#contact' : `#${item.toLowerCase()}`}
                             className="text-sm uppercase tracking-widest text-gray-300 hover:text-white transition-colors relative group"
                         >
                             {item}
@@ -60,7 +60,7 @@ const Navbar = () => {
                             {['Work', 'About', 'Contact'].map((item) => (
                                 <a
                                     key={item}
-                                    href={`#${item.toLowerCase()}`}
+                                    href={item === 'Contact' ? '#contact' : `#${item.toLowerCase()}`}
                                     className="text-lg uppercase tracking-widest text-gray-300 hover:text-white"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >

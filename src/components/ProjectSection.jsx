@@ -14,7 +14,7 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
                         initial={{ opacity: 0, x: isEven ? -50 : 50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false, amount: 0.2, margin: "100px" }}
-                        transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+                        transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
                         className="w-full md:w-1/2"
                     >
                         <div className="relative aspect-[4/3] overflow-hidden rounded-lg group cursor-pointer">
@@ -31,7 +31,7 @@ const ProjectSection = ({ title, category, image, description, index, githubLink
                         initial={{ opacity: 0, x: isEven ? 50 : -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false, amount: 0.2, margin: "100px" }}
-                        transition={{ duration: 0.5, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+                        transition={{ duration: 0.8, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                         className="w-full md:w-1/2"
                     >
                         <p className="text-red-500 font-bold tracking-widest text-sm mb-6 uppercase">{category}</p>
