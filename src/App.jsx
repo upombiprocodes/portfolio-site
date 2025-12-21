@@ -13,6 +13,13 @@ import ExperienceTimeline from './components/ExperienceTimeline';
 function App() {
   const projects = [
     {
+      title: "Explainable Burnout Prediction",
+      category: "Machine Learning / Fairness AI",
+      image: "https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif",
+      description: "A production-grade ML system that predicts employee burnout risk with SHAP explanations and fairness auditing. Features a FastAPI REST API, Streamlit dashboard with intervention simulator, demographic parity analysis, and 39 automated tests. Built with scikit-learn, MLflow tracking, and comprehensive bias detection.",
+      githubLink: "https://github.com/usbsucksatcoding/explainable-workforce-burnout-system"
+    },
+    {
       title: "Traffic Prediction System",
       category: "Machine Learning / Python",
       image: "https://media.giphy.com/media/xT9C25UNTwfZuk85WP/giphy.gif",
@@ -106,7 +113,7 @@ function App() {
                     To support myself, I also worked at Marks & Spencer. Retail is the frontline of customer experience, and dealing with fast-paced environments trained me to stay calm under pressure, solve operational issues on the spot, and deliver reliability day after day. It’s where I understood that every interaction — digital or physical — has to feel smooth and human-centric.
                   </p>
                   <p>
-                    My earlier internships in Bangladesh helped me build a strong technical foundation. As a Junior Frontend Web Developer, I contributed to real client projects where UI decisions directly shaped engagement. Later, as an AI Engineer intern, I explored data, machine learning, automation, and how analytics can drive smarter outcomes. Those experiences showed me both sides of tech — what users see and what powers it under the hood.
+                    My earlier internships in Bangladesh helped me build a strong technical foundation. As a Junior Frontend Web Developer, I contributed to real client projects where UI decisions directly shaped engagement. Later, as an AI Engineer intern, I explored data, machine learning, automation, and how analytics can drive smarter outcomes. Those experiences showed me both sides of tech: what users see and what powers it under the hood.
                   </p>
 
                   <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700">

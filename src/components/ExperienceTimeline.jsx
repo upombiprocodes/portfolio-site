@@ -7,14 +7,14 @@ const experiences = [
         company: "SEN Schools",
         period: "Present",
         current: true,
-        description: "I currently work with students who have special educational needs, a role that requires a high degree of adaptability, patience, and emotional intelligence. My daily responsibilities involve breaking down complex academic concepts into accessible, bite-sized pieces of information that cater to individual learning styles. This experience has been invaluable in shaping my approach to user experience design—teaching me that clarity, empathy, and structure are the foundations of effective communication. It has also honed my ability to stay calm under pressure and manage challenging behavioral situations with a solution-oriented mindset."
+        description: "I currently work with students who have special educational needs, a role that requires a high degree of adaptability, patience, and emotional intelligence. My daily responsibilities involve breaking down complex academic concepts into accessible, bite-sized pieces of information that cater to individual learning styles. This experience has been invaluable in shaping my approach to user experience design, teaching me that clarity, empathy, and structure are the foundations of effective communication. It has also honed my ability to stay calm under pressure and manage challenging behavioral situations with a solution-oriented mindset."
     },
     {
         role: "Retail Assistant",
         company: "Marks & Spencer",
         period: "Present",
         current: true,
-        description: "At Marks & Spencer, I work in a fast-paced retail environment where operational efficiency and customer satisfaction are paramount. I am responsible for managing stock logistics, resolving customer queries on the spot, and ensuring smooth store operations during peak hours. This role has sharpened my problem-solving skills and my ability to prioritize tasks effectively when time is limited. It has also given me a deep appreciation for the 'end-user' experience—understanding that every system, process, or interaction must be designed to be as seamless and frustration-free as possible for the person on the other side."
+        description: "At Marks & Spencer, I work in a fast-paced retail environment where operational efficiency and customer satisfaction are paramount. I am responsible for managing stock logistics, resolving customer queries on the spot, and ensuring smooth store operations during peak hours. This role has sharpened my problem-solving skills and my ability to prioritize tasks effectively when time is limited. It has also given me a deep appreciation for the 'end-user' experience, understanding that every system, process, or interaction must be designed to be as seamless and frustration-free as possible for the person on the other side."
     },
     {
         role: "AI Engineer Intern",
