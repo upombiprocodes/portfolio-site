@@ -17,7 +17,7 @@ function App() {
       category: "Machine Learning / Fairness AI",
       image: "https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif",
       description: "A production-grade ML system that predicts employee burnout risk with SHAP explanations and fairness auditing. Features a FastAPI REST API, Streamlit dashboard with intervention simulator, demographic parity analysis, and 39 automated tests. Built with scikit-learn, MLflow tracking, and comprehensive bias detection.",
-      githubLink: "https://github.com/usbsucksatcoding/explainable-workforce-burnout-system"
+      githubLink: "https://explainable-workforce-burnout-system-upombipro.streamlit.app"
     },
     {
       title: "Traffic Prediction System",
