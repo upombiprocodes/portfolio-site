@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -97,27 +97,27 @@ function App() {
 
                 <div className="space-y-6 text-lg text-gray-300 leading-relaxed text-justify">
                   <blockquote className="border-l-4 border-red-500 pl-4 italic text-xl text-white mb-8">
-                    "A developer with an analystâ€™s brain â€” and a teacherâ€™s heart."
+                    "A developer with an analyst’s brain , and a teacher’s heart."
                   </blockquote>
 
                   <p>
-                    Iâ€™m <span className="text-white font-bold">Upom Bipro</span>, a Computer Science student at Brunel University London who loves turning messy problems into simple, usable solutions. My path hasnâ€™t been traditional â€” and that has shaped the way I work.
+                    I’m <span className="text-white font-bold">Upom Bipro</span>, a Computer Science student at Brunel University London who loves turning messy problems into simple, usable solutions. My path hasn’t been traditional , and that has shaped the way I work.
                   </p>
                   <p>
                     I grew up in Bangladesh, where technology always felt like the gateway to creating something bigger than myself. Moving to the UK sharpened that ambition, pushing me to adapt quickly, communicate across cultures, and learn how different environments influence the way people interact with tech.
                   </p>
                   <p>
-                    Outside university, I work as a Teaching Assistant in Special Educational Needs schools. That role has taught me something that textbooks canâ€™t: patience, empathy, and the skill to break down complex ideas into clear, helpful guidance. Iâ€™ve learned how different users think â€” a mindset I now apply when designing software and improving user experience.
+                    Outside university, I work as a Teaching Assistant in Special Educational Needs schools. That role has taught me something that textbooks can’t: patience, empathy, and the skill to break down complex ideas into clear, helpful guidance. I’ve learned how different users think , a mindset I now apply when designing software and improving user experience.
                   </p>
                   <p>
-                    To support myself, I also worked at Marks & Spencer. Retail is the frontline of customer experience, and dealing with fast-paced environments trained me to stay calm under pressure, solve operational issues on the spot, and deliver reliability day after day. Itâ€™s where I understood that every interaction â€” digital or physical â€” has to feel smooth and human-centric.
+                    To support myself, I also worked at Marks & Spencer. Retail is the frontline of customer experience, and dealing with fast-paced environments trained me to stay calm under pressure, solve operational issues on the spot, and deliver reliability day after day. It’s where I understood that every interaction , digital or physical , has to feel smooth and human-centric.
                   </p>
                   <p>
                     My earlier internships in Bangladesh helped me build a strong technical foundation. As a Junior Frontend Web Developer, I contributed to real client projects where UI decisions directly shaped engagement. Later, as an AI Engineer intern, I explored data, machine learning, automation, and how analytics can drive smarter outcomes. Those experiences showed me both sides of tech: what users see and what powers it under the hood.
                   </p>
 
                   <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700">
-                    <p className="mb-4 font-semibold text-white">Now, Iâ€™m combining everything:</p>
+                    <p className="mb-4 font-semibold text-white">Now, I’m combining everything:</p>
                     <ul className="list-disc list-inside space-y-2 ml-2">
                       <li>Analytical mindset from AI and data work</li>
                       <li>User-focused approach from SEN support</li>
@@ -127,10 +127,10 @@ function App() {
                   </div>
 
                   <p>
-                    Iâ€™m not just learning how to write code â€” Iâ€™m learning how to solve problems that matter, for real people, with real constraints.
+                    I’m not just learning how to write code , I’m learning how to solve problems that matter, for real people, with real constraints.
                   </p>
                   <p>
-                    Thatâ€™s why Iâ€™m drawn to roles where technology and insight come together â€” whether thatâ€™s improving systems as a Tech Analyst or building full-stack solutions that help organisations grow. I want to work where I can keep learning fast, collaborate across teams, and contribute to products that make life simpler, more accessible, and more intelligent.
+                    That’s why I’m drawn to roles where technology and insight come together , whether that’s improving systems as a Tech Analyst or building full-stack solutions that help organisations grow. I want to work where I can keep learning fast, collaborate across teams, and contribute to products that make life simpler, more accessible, and more intelligent.
                   </p>
                 </div>
               </div>
@@ -178,4 +178,3 @@ function App() {
 }
 
 export default App;
-
