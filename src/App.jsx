@@ -16,28 +16,21 @@ function App() {
       title: "Explainable Burnout Prediction",
       category: "Machine Learning / Fairness AI",
       image: "https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif",
-      description: "A production-grade ML system that predicts employee burnout risk with SHAP explanations and fairness auditing. Features a FastAPI REST API, Streamlit dashboard with intervention simulator, demographic parity analysis, and 39 automated tests. Built with scikit-learn, MLflow tracking, and comprehensive bias detection.",
+      description: "A production-grade ML system predicting employee burnout risk across 21,626 records with 98% AUC. Features SHAP explainability, demographic fairness auditing, intervention simulator, and an interactive Streamlit dashboard. Built with scikit-learn, FastAPI, and MLflow tracking.",
       githubLink: "https://explainable-workforce-burnout-system-upombipro.streamlit.app"
     },
     {
       title: "Traffic Prediction System",
       category: "Machine Learning / Python",
       image: "https://media.giphy.com/media/xT9C25UNTwfZuk85WP/giphy.gif",
-      description: "An end-to-end machine learning platform that predicts hourly traffic volumes with high accuracy. Built using Python and Scikit-learn, it features a Random Forest model trained on environmental data. The system includes an interactive Streamlit dashboard with SHAP explainability plots and Folium maps for real-time hotspot visualization.",
+      description: "An end-to-end ML pipeline predicting hourly traffic volumes using Random Forest trained on environmental data. Features a Streamlit dashboard with SHAP explanations and Folium maps for real-time hotspot visualization.",
       githubLink: "https://upombiprocodes-traffic-prediction-syst-explain-dashboard-yoxxol.streamlit.app/"
     },
     {
-      title: "Impact Dashboard",
-      category: "Sustainability / Data Analysis",
-      image: "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif",
-      description: "A comprehensive dashboard designed to minimize carbon footprints and analyze environmental impact. This tool aggregates data to visualize CO2 emissions, offering actionable insights for reduction. It features dynamic charts and goal-tracking modules to encourage sustainable practices.",
-      githubLink: "https://github.com/upombiprocodes"
-    },
-    {
       title: "Applicant Management System",
-      category: "Java / SQL / Figma",
+      category: "Java / SQL / Desktop App",
       image: "https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif",
-      description: "A robust desktop application engineered to automate 90% of university admissions processes. It features a secure SQL database managing over 1,000 applicant records and a custom Java Swing interface designed from high-fidelity Figma prototypes.",
+      description: "A robust desktop application automating university admissions workflows. Features secure SQLite database managing 1,000+ applicant records, custom Java Swing UI designed from Figma prototypes, and CRUD operations with data validation.",
       githubLink: "https://github.com/upombiprocodes/Applicant-Management-System-UNIVERSITY"
     }
   ];
