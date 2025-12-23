@@ -14,21 +14,21 @@ function App() {
     {
       title: "Explainable Burnout Prediction",
       category: "Machine Learning / Fairness AI",
-      image: "https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
       description: "A production-grade ML system predicting employee burnout risk across 21,626 records with 98% AUC. Features SHAP explainability, demographic fairness auditing, intervention simulator, and an interactive Streamlit dashboard. Built with scikit-learn, FastAPI, and MLflow tracking.",
       githubLink: "https://explainable-workforce-burnout-system-upombipro.streamlit.app"
     },
     {
       title: "Traffic Prediction System",
       category: "Machine Learning / Python",
-      image: "https://media.giphy.com/media/xT9C25UNTwfZuk85WP/giphy.gif",
+      image: "https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?w=800&q=80",
       description: "An end-to-end ML pipeline predicting hourly traffic volumes using Random Forest trained on environmental data. Features a Streamlit dashboard with SHAP explanations and Folium maps for real-time hotspot visualization.",
       githubLink: "https://upombiprocodes-traffic-prediction-syst-explain-dashboard-yoxxol.streamlit.app/"
     },
     {
       title: "Applicant Management System",
       category: "Java / SQL / Desktop App",
-      image: "https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif",
+      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
       description: "A robust desktop application automating university admissions workflows. Features secure SQLite database managing 1,000+ applicant records, custom Java Swing UI designed from Figma prototypes, and CRUD operations with data validation.",
       githubLink: "https://github.com/upombiprocodes/Applicant-Management-System-UNIVERSITY"
     }

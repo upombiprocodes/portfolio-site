@@ -17,7 +17,7 @@ const Hero = () => {
                     className="mb-6"
                 >
                     <span className="inline-block px-4 py-2 bg-red-500/20 border border-red-500/50 rounded-full text-red-400 text-sm font-semibold tracking-wide">
-                        🎯 Seeking 2025/26 Industrial Placement
+                        Seeking 2025/26 Industrial Placement
                     </span>
                 </motion.div>
 
