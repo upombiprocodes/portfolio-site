@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProjectSection from './components/ProjectSection';
 import Footer from './components/Footer';
-import CustomCursor from './components/CustomCursor';
 import WordZoom from './components/WordZoom';
 import profileImage from './assets/profile.jpg';
 
@@ -36,8 +35,7 @@ function App() {
   ];
 
   return (
-    <div className="bg-black min-h-screen text-white cursor-none selection:bg-red-500 selection:text-white overflow-x-hidden">
-      <CustomCursor />
+    <div className="bg-black min-h-screen text-white selection:bg-red-500 selection:text-white overflow-x-hidden">
       <WordZoom />
       <Navbar />
 

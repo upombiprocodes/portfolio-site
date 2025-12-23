@@ -10,14 +10,25 @@ const Hero = () => {
             <InteractiveBackground />
 
             <div className="relative z-20 container mx-auto px-6 text-center">
+                <motion.div
+                    initial={{ opacity: 0, y: -20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4 }}
+                    className="mb-6"
+                >
+                    <span className="inline-block px-4 py-2 bg-red-500/20 border border-red-500/50 rounded-full text-red-400 text-sm font-semibold tracking-wide">
+                        🎯 Seeking 2025/26 Industrial Placement
+                    </span>
+                </motion.div>
+
                 <motion.h1
                     initial={{ opacity: 0, y: 100 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     className="text-5xl md:text-8xl font-bold text-white mb-6 tracking-tighter"
                 >
-                    TECH <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-600">EXPERIENCES</span>{' '}
-                    THAT MATTER
+                    I TURN <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-pink-500 to-purple-600">DATA</span>{' '}
+                    INTO DECISIONS
                 </motion.h1>
 
                 <motion.p
@@ -26,7 +37,7 @@ const Hero = () => {
                     transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
                     className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12 font-bold"
                 >
-                    I craft interactive websites and data-driven applications.
+                    CS student building ML dashboards, analytical tools & full-stack applications.
                 </motion.p>
 
                 <motion.div
