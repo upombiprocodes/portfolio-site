@@ -26,7 +26,7 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-8">
-                    {['Work', 'About', 'Contact'].map((item) => (
+                    {['Projects', 'About', 'Contact'].map((item) => (
                         <a
                             key={item}
                             href={item === 'Contact' ? '#contact' : `#${item.toLowerCase()}`}
@@ -57,7 +57,7 @@ const Navbar = () => {
                         className="absolute top-full left-0 right-0 bg-black border-t border-gray-800 p-6 md:hidden"
                     >
                         <div className="flex flex-col space-y-4">
-                            {['Work', 'About', 'Contact'].map((item) => (
+                            {['Projects', 'About', 'Contact'].map((item) => (
                                 <a
                                     key={item}
                                     href={item === 'Contact' ? '#contact' : `#${item.toLowerCase()}`}

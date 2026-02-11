@@ -42,12 +42,12 @@ function App() {
       <main>
         <Hero />
 
-        {/* Work Section */}
-        <section id="work" className="bg-black relative z-10">
+        {/* Projects Section */}
+        <section id="projects" className="bg-black relative z-10">
           <div className="container mx-auto px-6 py-20 relative z-10">
             <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-8">
               <h2 className="text-5xl md:text-8xl font-bold tracking-tighter">
-                <span className="text-white">SELECTED</span> <br /> <span className="text-zinc-800">WORK</span>
+                <span className="text-white">SELECTED</span> <br /> <span className="text-zinc-800">PROJECTS</span>
               </h2>
               <p className="text-gray-400 max-w-sm text-right leading-relaxed">
                 A showcase of technical projects demonstrating full-stack development and machine learning expertise.

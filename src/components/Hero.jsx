@@ -40,18 +40,7 @@ const Hero = () => {
                     CS student building ML dashboards, analytical tools & full-stack applications.
                 </motion.p>
 
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.6, delay: 0.6 }}
-                >
-                    <a
-                        href="#work"
-                        className="inline-flex items-center gap-2 px-8 py-4 bg-white text-black font-bold tracking-widest hover:bg-gray-200 transition-colors rounded-full"
-                    >
-                        VIEW WORK
-                    </a>
-                </motion.div>
+
             </div>
 
             <motion.div
