@@ -6,6 +6,7 @@ import ProjectSection from './components/ProjectSection';
 import Footer from './components/Footer';
 import WordZoom from './components/WordZoom';
 import profileImage from './assets/profile.jpg';
+import impactDashboardImage from './assets/impact-dashboard.png';
 
 import ExperienceTimeline from './components/ExperienceTimeline';
 
@@ -26,11 +27,11 @@ function App() {
       githubLink: "https://upombiprocodes-traffic-prediction-syst-explain-dashboard-yoxxol.streamlit.app/"
     },
     {
-      title: "Applicant Management System",
-      category: "Java / SQL / Desktop App",
-      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
-      description: "A robust desktop application automating university admissions workflows. Features secure SQLite database managing 1,000+ applicant records, custom Java Swing UI designed from Figma prototypes, and CRUD operations with data validation.",
-      githubLink: "https://github.com/upombiprocodes/Applicant-Management-System-UNIVERSITY"
+      title: "Impact Dashboard",
+      category: "React / FastAPI / Full-Stack",
+      image: impactDashboardImage,
+      description: "A full-stack carbon footprint tracker with JWT authentication, gamified badges, and interactive Recharts visualizations. Features daily CO2 logging, monthly goal tracking, streak-based challenges, and a FastAPI backend with SQLAlchemy ORM and Alembic migrations.",
+      githubLink: "https://github.com/upombiprocodes/impact-dashboard"
     }
   ];
 
